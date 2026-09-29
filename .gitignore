@@ -1,0 +1,64 @@
+# ==========================================
+# Python & YOLO Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+yolo_env/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# YOLO Training outputs / Logs
+runs/
+*.log
+
+# ==========================================
+# Flutter & Dart (Mobile App)
+# ==========================================
+mobile_app/.dart_tool/
+mobile_app/.idea/
+mobile_app/.vscode/
+mobile_app/build/
+mobile_app/.packages
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/.pub-cache/
+mobile_app/.pub/
+
+# ==========================================
+# Environment Variables & Security
+# ==========================================
+.env
+*.env
+*.pem
+*.key
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.bak
