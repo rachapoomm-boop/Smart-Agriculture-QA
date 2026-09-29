@@ -5,6 +5,7 @@ import glob
 import time
 from ultralytics import YOLO
 
+
 # 1. โหลดโมเดล YOLO
 model_path = 'weights/best.pt' if os.path.exists('weights/best.pt') else 'yolov8n.pt'
 print(f"กำลังใช้งานโมเดล: {model_path}")
