@@ -3,6 +3,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
+
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 require_once '../db.php'; // เรียกใช้ไฟล์ db.php จากโฟลเดอร์ที่อยู่สูงขึ้นไป 1 ขั้น
