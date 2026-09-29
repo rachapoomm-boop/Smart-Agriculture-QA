@@ -3,6 +3,7 @@
 #include <ArduinoJson.h>
 #include "DHT.h"
 
+
 // --- ตั้งค่า Hardware ---
 #define DHTPIN 5          // ขาสัญญาณ Data ของ DHT (หากค่ายังเพี้ยนลองย้ายไปใช้ GPIO 5)
 #define DHTTYPE DHT11     // หากเป็นเซนเซอร์ตัวสีขาวให้เปลี่ยนเป็น DHT22
